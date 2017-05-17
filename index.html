@@ -18,10 +18,52 @@
 			<p class="title">Marauder's Map</p>
 			<hr>
 			<p class="lead">
-				A demographic study of students taking INFO5100 in Spring 2017.
+				A demographic study of students taking INFO5100 in Spring 2017 about their favorite caf&eacute; and place
+				of residence.
 			</p>
-			<div id="mapid"></div>
+			<div class="form-check">
+				<label class="form-check-label">
+					<input type="radio" class="form-check-input" name="optionsRadios" id="cafe">
+					Favorite caf&eacute;
+				</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label">
+					<input type="radio" class="form-check-input" name="optionsRadios" id="home">
+					Home location
+				</label>
+			</div>
+			<div class="form-check">
+				<div class="row">
+					<div class="col">
+						<label class="form-check-label">
+							<input id="cs" type="checkbox" class="form-check-input" unchecked>
+							<p style="color: white; background: #CB2D40; padding: 3px">CS</p>
+						</label>
+					</div>
+					<div class="col">
+						<label class="form-check-label">
+							<input id="info" type="checkbox" class="form-check-input" checked>
+							<p style="color: white; background: #27AE24; padding: 3px">INFO</p>
+						</label>
+					</div>
+					<div class="col">
+						<label class="form-check-label">
+							<input id="orie" type="checkbox" class="form-check-input" unchecked>
+							<p style="color: white; background: #CBC52D; padding: 3px">ORIE</p>
+						</label>
+					</div>
+					<div class="col">
+						<label id="other" class="form-check-label">
+							<input type="checkbox" class="form-check-input" unchecked>
+							<p style="color: white; background: #8C8C8C; padding: 3px">Other*</p>
+						</label>
+					</div>
+				</div>
+			</div>
 
+			<div id="mapid"></div>
+			<p>ddd</p>
 		</div>
 
 		<script src="js/map.js"></script>
