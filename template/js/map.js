@@ -17,7 +17,6 @@ setTimeout(function() {
 }, 100);
 
 setTimeout(function() {
-	marauder.style.background = "none";
 	boxed.style.visibility = "visible";
 	$(".marauder").fadeIn(2000);
 }, 2100);
