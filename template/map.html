@@ -17,11 +17,12 @@
 	<body onload="init()">
 		<div class="marauder">
 			<div class="container boxed">
-				<p class="title">Marauder's Map</p>
+				<p class="title">Cornell Marauder's Map</p>
 				<p class="lead intro">
-					A demographic study of students taking INFO5100 in Spring 2017 about their favorite caf&eacute; and place
-					of residence. <br>
-					Please select a location and major(s) to view the map. Click the markers to know more!
+					A demographic study of students in Spring 2017 about their favorite caf&eacute;, place
+					of residence, and typical movements on a weekday. Please select a location (radio button) and major(s) (checkboxes) to view them on the map. Click the markers to learn more!
+					To see daily motions, click on the third radio button and wait to see them moving(Please NOTE that motion changes are 
+					visible every four seconds.)
 				</p>
 				<div class="row">
 					<div class="col">
@@ -76,10 +77,25 @@
 						</label>
 					</div>
 				</div>
+				
+				<div class="row">
+					<div class="col">
+						<div class="form-check">
+							<label class="form-check-label">
+								<p class="btn-pill"><input type="radio" class="form-check-input" name="optionsRadios" id="motion">
+								Motion of Students <i class="em em-walking"></i> </p>
+							</label>
+						</div>
+					</div>
+					
+				</div>
+				
+				
 				<div id="mapid"></div>
 
 				<p class="lead intro text-center">
-					The bubble chart displays all the courses in various departments being taken by INFO 5100 students in Spring 2017.
+					The bubble chart displays all the courses in various departments being taken by Cornell students who participated in our survey. 
+					Hover over the bubbles to see the corresponding course list. Click and drag the bubbles for fun!
 				</p>
 
 				<div id="row1">
@@ -95,7 +111,7 @@
 				</footer>
 			</div>
 		</div>
-
+		<script src="Leaflet.AnimatedMarker/src/AnimatedMarker.js"></script>
 		<script src="js/map.js"></script>
 		<script src="js/classesByCategory.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

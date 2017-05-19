@@ -45,7 +45,7 @@ function classesByCategory(error, data, categoryData) {
     var categoryNames = preprocessCategoryData(categoryData);
     
     // Create bubble chart - total of 36 categories
-    var width = 400;
+    var width = 440;
     var height = 450;
     var padding = 60;
 
@@ -64,7 +64,7 @@ function classesByCategory(error, data, categoryData) {
         .attr("width", width)
         .attr("height", height-padding);
 
-    var radiusScale = d3.scaleSqrt().domain([0, 35]).range([15, 60]);
+    var radiusScale = d3.scaleSqrt().domain([0, 35]).range([15, 70]);
     var colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
     for (var i = 0; i < nodes.length; i++) {

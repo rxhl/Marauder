@@ -13,14 +13,14 @@ const marauder = document.querySelector(".marauder");
 const boxed = document.querySelector(".boxed");
 
 setTimeout(function() {
-	$(".marauder").fadeOut(2000);
+	$(".marauder").fadeOut(2200);
 }, 100);
 
 setTimeout(function() {
 	marauder.style.background = "none";
 	boxed.style.visibility = "visible";
 	$(".marauder").fadeIn(2000);
-}, 2100);
+}, 2400);
 
 // Setting map's default coordinates
 
@@ -86,7 +86,7 @@ var orHome = new L.FeatureGroup();
 var otherCafe = new L.FeatureGroup();
 var otherHome = new L.FeatureGroup();
 
-
+const animateBtn = document.querySelector("#motion");
 const cafeBtn = document.querySelector("#cafe");
 const homeBtn = document.querySelector("#home");
 
@@ -97,14 +97,133 @@ const orie = document.querySelector("#orie");
 
 d3.queue()
     .defer(d3.csv, "data/marauder.csv")
-    .await(function(error, data) {
+    .defer(d3.csv, "data/CornellMaraudersMapSurvey.csv")
+    .defer(d3.csv, "data/classData.csv")
+    .await(function(error, data, surveyData, classData) {
         if (error) {
             console.error(error);
         }
         else
         {
-            // Draw cafes for majors
+            // dayOfWeek given as an integer, where 0 = Sunday, 1 = Monday, etc.
+            function getListOfTimes(dayOfWeek) {
+                var listOfTimes = [];
+                classData.forEach(function(row) {
+                    var dateTime = row.DTSTART;
+                    var dateTimeSplit = dateTime.split(" ");
+                    var date = new Date(dateTimeSplit[0]);
+                    if (date.getDay() == dayOfWeek) {
+                        var time = dateTimeSplit[1];
+                        if (!(listOfTimes.includes(time))) {
+                            listOfTimes.push(time);
+                        }
+                    }
+                   
+                });
+                listOfTimes.sort(function (a, b) {
+                   return new Date('1970/01/01 ' + a) - new Date('1970/01/01 ' + b); 
+                });
+                return listOfTimes;
+            }
+            
+            function getStudentPathCoords(dayOfWeek) {
+                var studentPathCoords = [];
+                
+                // Add latitude and longitude
+                surveyData.forEach(function(row) {
+                    var name = row.Name;
+                    var classes = row.Classes;
+                    var classList = classes.split(", ");
+                    var coords = [];
+                    var startTimes = [];
+                    
+                    if (getHomeLatLong(name) != null) {
+                        // Add latitude and longitude for home location
+                        coords.push(getHomeLatLong(name));
 
+                        // Add latitude and longitude for classes
+                        for (var i = 0; i < classList.length; i++) {
+                            var latLongTime = findLatLongAndTime(classList[i], dayOfWeek);
+                            if (latLongTime != null) {
+                                coords.push([latLongTime[0], latLongTime[1]]);
+                                startTimes.push(latLongTime[2]);
+                            }
+                        }
+
+                        if (coords.length > 1) {
+                            studentPathCoords.push({"name": name, "coords": coords, "times": startTimes});
+                        }
+                    }
+                });
+                return studentPathCoords;
+             }
+                
+            function findLatLongAndTime(courseId, dayOfWeek) {
+                for (var i = 1; i < classData.length; i++) {
+                    var summary = classData[i].SUMMARY;
+                    var summarySplit = summary.split(" ");
+                    var cid = summarySplit[0] + " " + summarySplit[1].substr(0, summarySplit[1].length - 1);
+                    if (cid === courseId) {
+                        // Get time
+                        var dateTime = classData[i].DTSTART;
+                        var dateTimeSplit = dateTime.split(" ");
+                        var date = new Date(dateTimeSplit[0]);
+                        if (date.getDay() == dayOfWeek) {
+                            var time = dateTimeSplit[1];
+                            return [classData[i].LAT, classData[i].LONG, time];
+                        }
+                    }
+                }
+                return null;
+            }
+            
+            function getHomeLatLong(studentName) {
+                for (var i = 0; i < data.length; i++) {
+                    if (data[i].name === studentName) {
+                        return [data[i].home_lat, data[i].home_lon];
+                    }
+                }
+                return null;
+            }
+        
+            var i = 0;
+            var listOfTimes = getListOfTimes(4);
+            var allCoords = getStudentPathCoords(4);
+            var markers = [];
+            var animationLayers = [];
+            
+            function moveMarker() {
+                setTimeout(function() {
+                    var time = listOfTimes[i];
+                    
+                    for (var j = 0; j < allCoords.length; j++) {
+                        var index = allCoords[j].times.indexOf(time);
+                        if (index != -1) {
+                            line = L.polyline([allCoords[j].coords[index], allCoords[j].coords[index+1]]);
+                            markers[j] = L.animatedMarker(line.getLatLngs(), {
+                                autoStart: true,
+                                icon: greenIcon, 
+                                opacity: 0.8
+                            });
+                            animationLayers[j].remove();
+                            animationLayers[j] = new L.FeatureGroup();
+                            animationLayers[j].addLayer(markers[j]);
+                            map.addLayer(animationLayers[j]);
+                            markers[j].bindTooltip(allCoords[j].name, {permanent: true, direction: 'auto', interactive: true});
+                            markers[j].openTooltip();
+                        }
+                    }
+      
+                    i++;
+                    if (i < listOfTimes.length) {
+                        moveMarker();
+                    }
+                }, 3500);
+                
+            }
+           
+            
+            // Draw cafes for majors
             function drawCafeInfo() {
                 var infoC;
                 for (var i = 0; i < data.length; i++) {
@@ -229,9 +348,60 @@ d3.queue()
                 }
                 map.addLayer(otherHome);
             }
+            
+            animateBtn.addEventListener("click", function() {
+				info.checked = false;
+				cs.checked = false;
+				orie.checked = false;
+				otherMajor.checked = false;
+			
+                infoHome.clearLayers();
+                csHome.clearLayers();
+                orHome.clearLayers();
+                otherHome.clearLayers();
+				
+				csCafe.clearLayers();
+                infoCafe.clearLayers();
+                orCafe.clearLayers();
+                otherCafe.clearLayers();
+				
+				if(i == 100)
+					i = 0;
+				
+				for (var a = 0; a < animationLayers.length; a++) {
+					animationLayers[a].clearLayers();
+				}
+				animationLayers = [];
+				if (markers.length != 0) {
+					markers = [];
+				}
+				
+				for (var j = 0; j < allCoords.length; j++) {
+					var line = L.polyline([allCoords[j].coords[0], allCoords[j].coords[1]]);
+					markers.push(L.animatedMarker(line.getLatLngs(), {
+						autoStart: false,
+						icon: greenIcon, 
+						opacity: 0.8,
+					}));
+
+					//markers[0].bindPopup(allCoords[0].name);
+					//markers[0].openPopup();
+					markers[j].bindTooltip(allCoords[j].name, {permanent: true, direction: 'auto', interactive: true});
+					markers[j].openTooltip();
+					
+					animationLayers[j] = new L.FeatureGroup();
+					animationLayers[j].addLayer(markers[j]);
+					map.addLayer(animationLayers[j]);
+				}
+				moveMarker();
+				
+            });
 
             cafeBtn.addEventListener("click", function() {
-
+				i = 100;
+				for (var a = 0; a < animationLayers.length; a++) {
+					animationLayers[a].clearLayers();
+				}
                 infoHome.clearLayers();
                 csHome.clearLayers();
                 orHome.clearLayers();
@@ -265,12 +435,13 @@ d3.queue()
                 else {
                     otherCafe.clearLayers();
                 }
-
-
             });
 
             homeBtn.addEventListener("click", function() {
-
+				i = 100;
+				for (var a = 0; a < animationLayers.length; a++) {
+					animationLayers[a].clearLayers();
+				}
                 csCafe.clearLayers();
                 infoCafe.clearLayers();
                 orCafe.clearLayers();
@@ -360,5 +531,6 @@ d3.queue()
         }
 
     });
+
 
 

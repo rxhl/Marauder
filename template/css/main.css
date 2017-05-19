@@ -85,7 +85,7 @@ h1 {
 }
 
 #classesByCategory {
-    width: 900px;
+    width: 950px;
     height: 500px;
     margin: 0 auto;
     margin-bottom: 100px;
@@ -106,11 +106,6 @@ h1 {
     height: 400px;
     overflow-y: auto;
     float: left;
-}
-
-#classesByTime {
-    width: 600px;
-    height: 450px;
 }
 
 #classesByCategory circle {
