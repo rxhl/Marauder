@@ -1,0 +1,123 @@
+SUMMARY,DTSTART,DTEND,NOTES,LOCATION,COURSENAME,LAT,LONG
+"AAS 1100, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Rockefeller Hall 230,Introduction to Asian American Studies,42.448983,-76.481771
+"AEM 1200, Lecture",1/25/17 10:10,1/25/17 11:00,LEC 001,Kennedy Hall 116-Call Aud,Introduction to Business Management,42.448094,-76.479259
+"AEM 2300, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Warren Hall B25,International Trade and Finance,42.449213,-76.477098
+"AEM 3520, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Warren Hall B50,Financial Statements Analysis,42.449213,-76.477098
+"AEM 4390, Lecture",3/21/17 11:40,3/21/17 12:55,LEC 001,Warren Hall B51,Technology Strategy,42.449213,-76.477098
+"ANTHR 3420, Discussion",1/27/17 10:10,1/27/17 11:00,DIS 201,McGraw Hall 215,"Myth, Ritual, and Symbol",42.44938934,-76.48543029
+"ANTHR 3420, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,Morrill Hall 106,"Myth, Ritual, and Symbol",42.448637,-76.485315
+"ART 3704, Studio",1/26/17 13:25,1/26/17 16:25,STU 501,Sibley Hall 223,Digital Media: Interactive Digital Media,42.450913,-76.4841
+"ASIAN 2250, Discussion",1/27/17 13:25,1/27/17 14:15,DIS 201,Rockefeller Hall 112,Introduction to Asian Religions,42.448983,-76.481771
+"ASIAN 2250, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Goldwin Smith Hall G64-Kau Aud,Introduction to Asian Religions,42.449063,-76.483473
+"ASTRO 2201, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Space Sciences Building 105,The History of the Universe,42.44889252,-76.48113844
+"ASTRO 2211, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Space Sciences Building 105,"Astronomy: Stars, Galaxies, and Cosmology",42.44889252,-76.48113844
+"BTRY 3080, Discussion",1/31/17 14:55,1/31/17 16:10,DIS 201,Phillips Hall 219,Probability Models and Inference,42.444511,-76.481992
+"BTRY 3080, Lecture",1/25/17 14:55,1/25/17 16:10,LEC 001,Caldwell Hall 100,Probability Models and Inference,42.449222,-76.478261
+"CEE 5900, Lecture",1/25/17 8:00,1/25/17 9:55,LEC 001,Bill and Melinda Gates Hll G01,Project Management,42.44495,-76.480807
+"CHEME 6400, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Olin Hall 165,Polymeric Materials,42.445429,-76.484397
+"COGST 1101, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Uris Hall G01,Introduction to Cognitive Science,42.447205,-76.482197
+"CS 2800, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Uris Hall G01,Discrete Structures,42.447205,-76.482197
+"CS 3300, Lecture",1/25/17 11:15,1/25/17 12:05,LEC 001,Klarman Hall KG70,Data-Driven Web Applications,42.4491,-76.4831
+"CS 3410, Discussion",1/31/17 14:55,1/31/17 16:10,DIS 201,Carpenter Hall 104 blue,Computer System Organization and Programming,42.444818,-76.484173
+"CS 3410, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Morrison Hall 146,Computer System Organization and Programming,42.446301,-76.46926
+"CS 3420, Discussion",1/31/17 14:55,1/31/17 16:10,DIS 201,Bard Hall 140,Embedded Systems,42.443878,-76.484026
+"CS 3420, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Phillips Hall 101,Embedded Systems,42.444511,-76.481992
+"CS 4220, Lecture",1/25/17 14:30,1/25/17 15:20,LEC 001,Bill and Melinda Gates Hll G01,Numerical Analysis: Linear and Nonlinear Problems,42.44495,-76.480807
+"CS 4300, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,Hollister Hall B14,Language and Information,42.443989,-76.484547
+"CS 4320, Lecture",1/25/17 12:20,1/25/17 13:10,LEC 001,Olin Hall 255,Introduction to Database Systems,42.445429,-76.484397
+"CS 4410, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Olin Hall 155,Operating Systems,42.445429,-76.484397
+"CS 4411, Lecture",1/27/17 14:30,1/27/17 15:20,LEC 001,Hollister Hall B14,Practicum in Operating Systems,42.443989,-76.484547
+"CS 4620, Lecture",1/25/17 14:30,1/25/17 15:20,LEC 001,Uris Hall G01,Introduction to Computer Graphics,42.447205,-76.482197
+"CS 4621, Lecture",1/27/17 15:35,1/27/17 16:50,LEC 001,Uris Hall G01,Computer Graphics Practicum,42.447205,-76.482197
+"CS 4700, Lecture",1/26/17 8:40,1/26/17 9:55,LEC 001,Ives Hall 305,Foundations of Artificial Intelligence,42.447248,-76.481015
+"CS 4744, Lecture",1/26/17 8:40,1/26/17 9:55,LEC 001,Morrill Hall 106,Computational Linguistics,42.448637,-76.485315
+"CS 4780, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Klarman Hall KG70,Machine Learning for Intelligent Systems,42.4491,-76.4831
+"CS 4820, Lecture",1/25/17 9:05,1/25/17 9:55,LEC 001,Uris Hall G01,Introduction to Analysis of Algorithms,42.447205,-76.482197
+"CS 4850, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Bill and Melinda Gates Hll G01,Mathematical Foundations for the Information Age,42.44495,-76.480807
+"CS 5150, Discussion",1/30/17 19:30,1/30/17 20:20,DIS 201,Phillips Hall 101,Software Engineering,42.444511,-76.481992
+"CS 5150, Lecture",1/25/17 12:20,1/25/17 13:10,LEC 001,Bill and Melinda Gates Hll G01,Software Engineering,42.44495,-76.480807
+"CS 5413, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Hollister Hall 110,High Performance Systems and Networking,42.443989,-76.484547
+"CS 5430, Lecture",1/25/17 10:10,1/25/17 11:25,LEC 001,Phillips Hall 203,System Security,42.444511,-76.481992
+"CS 5431, Lecture",1/27/17 10:10,1/27/17 11:25,LEC 001,Hollister Hall 314,Practicum in System Security,42.443989,-76.484547
+"CS 5780, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Klarman Hall KG70,Machine Learning for Intelligent Systems,42.4491,-76.4831
+"CS 6700, Lecture",1/25/17 15:35,1/25/17 16:25,LEC 001,Hollister Hall 320,Advanced Artificial Intelligence,42.443989,-76.484547
+"DEA 4700, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,M Van Rensselaer Hall 151,Applied Ergonomic Methods,42.450093,-76.477969
+"EAS 1109, Lecture",1/31/17 12:20,1/31/17 13:10,LEC 001,Thurston Hall 203,Dinosaurs,42.443913,-76.48366
+"EAS 2680, Lecture",1/25/17 10:10,1/25/17 11:00,LEC 001,Bradfield Hall 101,Climate and Global Warming,42.447931,-76.475775
+"ECE 1210, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Olin Hall 245,The Computing Technology Inside Your Smartphone,42.445429,-76.484397
+"ECE 3100, Discussion",1/31/17 10:10,1/31/17 11:25,DIS 201,Baker Laboratory 135,Introduction to Probability and Inference for Random Signals and Systems,42.450151,-76.481771
+"ECE 3100, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Hollister Hall B14,Introduction to Probability and Inference for Random Signals and Systems,42.443989,-76.484547
+"ECON 4020, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Goldwin Smith Hall 132-HEC Aud,Game Theory,42.449063,-76.483473
+"ENGRD 2520, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Physical Sciences Building 120,The Physics of Life,42.449892,-76.481767
+"ENGRD 2700, Discussion",1/31/17 8:40,1/31/17 9:55,DIS 203,Frank H T Rhodes Hall 571,Basic Engineering Probability and Statistics,42.443425,-76.481356
+"ENGRD 2700, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Olin Hall 255,Basic Engineering Probability and Statistics,42.445429,-76.484397
+"FREN 2095, Seminar",1/25/17 9:05,1/25/17 9:55,SEM 101,McGraw Hall 145,French Intermediate Composition and Conversation II,42.44938934,-76.48543029
+"GERST 1230, Seminar",1/25/17 12:20,1/25/17 13:10,SEM 101,Uris Hall 303,Expanding the German Dossier,42.447205,-76.482197
+"GERST 4414, Seminar",1/25/17 14:55,1/25/17 16:10,SEM 101,Goldwin Smith Hall 181,The Sound of Literature,42.449063,-76.483473
+"GOVT 4735, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,Baker Laboratory 335,"Marx, Nietzsche, Freud",42.450151,-76.481771
+"HADM 2230, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Statler Hall 185-Aud,Financial Accounting Principles,42.44545558,-76.48213663
+"HADM 4300, Lecture",1/25/17 14:55,1/25/17 16:55,LEC 001,Statler Hall 185-Aud,Introduction to Wines,42.44545558,-76.48213663
+"HD 1170, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Ives Hall 305,Adolescence and Emerging Adulthood,42.447248,-76.481015
+"HD 3620, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,Kennedy Hall 116-Call Aud,Human Bonding,42.448094,-76.479259
+"INFO 1200, Discussion",1/27/17 10:10,1/27/17 11:00,DIS 201,Hollister Hall 312,"Information Ethics, Law, and Policy",42.443989,-76.484547
+"INFO 1200, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Olin Hall 155,"Information Ethics, Law, and Policy",42.445429,-76.484397
+"INFO 2300, Discussion",1/27/17 12:20,1/27/17 13:10,DIS 201,Carpenter Hall 235 red,Intermediate Design and Programming for the Web,42.444818,-76.484173
+"INFO 2300, Lecture",1/25/17 14:30,1/25/17 15:20,LEC 001,Klarman Hall KG70,Intermediate Design and Programming for the Web,42.4491,-76.4831
+"INFO 2770, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Warren Hall B75,Excursions in Computational Sustainability,42.449213,-76.477098
+"INFO 2950, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Kennedy Hall 116-Call Aud,Introduction to Data Science,42.448094,-76.479259
+"INFO 3152, Discussion",1/26/17 11:15,1/26/17 12:05,DIS 201,Uris Library 2B01-CL3,Introduction to Computer Game Design,42.447751,-76.485366
+"INFO 3152, Lecture",1/25/17 10:10,1/25/17 11:00,LEC 001,Malott Hall 253,Introduction to Computer Game Design,42.448225,-76.480195
+"INFO 3200, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Bradfield Hall 101,New Media and Society,42.447931,-76.475775
+"INFO 3300, Lecture",1/25/17 11:15,1/25/17 12:05,LEC 001,Klarman Hall KG70,Data-Driven Web Applications,42.4491,-76.4831
+"INFO 3660, Lecture",1/25/17 14:55,1/25/17 16:10,LEC 001,Goldwin Smith Hall G22,History and Theory of Digital Art,42.449063,-76.483473
+"INFO 4120, Laboratory",1/26/17 10:10,1/26/17 11:25,LAB 401,Phillips Hall 318,Ubiquitous Computing,42.444511,-76.481992
+"INFO 4120, Lecture",1/31/17 10:10,1/31/17 11:25,LEC 001,Thurston Hall 205,Ubiquitous Computing,42.443913,-76.48366
+"INFO 4410, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Olin Hall 245,Human Robot Interaction - Research and Design,42.445429,-76.484397
+"INFO 4450, Seminar",1/26/17 13:25,1/26/17 14:40,SEM 101,Kennedy Hall 213,Computer-Mediated Communication,42.448094,-76.479259
+"INFO 5100, Lecture",1/25/17 11:15,1/25/17 12:05,LEC 001,Klarman Hall KG70,Data-Driven Web Applications,42.4491,-76.4831
+"INFO 6120, Laboratory",1/26/17 10:10,1/26/17 11:25,LAB 401,Phillips Hall 318,Ubiquitous Computing,42.444511,-76.481992
+"INFO 6120, Lecture",1/31/17 10:10,1/31/17 11:25,LEC 001,Thurston Hall 205,Ubiquitous Computing,42.443913,-76.48366
+"INFO 6300, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Hollister Hall 320,Advanced Language Technologies,42.443989,-76.484547
+"JAPAN 1102, Discussion",1/25/17 9:05,1/25/17 9:55,DIS 201,Rockefeller Hall 116,Elementary Japanese II,42.448983,-76.481771
+"JAPAN 1102, Lecture",1/25/17 9:05,1/25/17 9:55,LEC 001,Rockefeller Hall 132,Elementary Japanese II,42.448983,-76.481771
+"LING 3302, Discussion",1/27/17 15:35,1/27/17 16:25,DIS 201,Morrill Hall 102,Introduction to Phonetics and Phonology,42.448637,-76.485315
+"LING 3302, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Morrill Hall 106,Introduction to Phonetics and Phonology,42.448637,-76.485315
+"MAE 3240, Discussion",1/30/17 19:30,1/30/17 20:20,DIS 201,Olin Hall 245,Heat Transfer,42.445429,-76.484397
+"MAE 3240, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Phillips Hall 101,Heat Transfer,42.444511,-76.481992
+"MAE 3260, Laboratory",1/30/17 14:00,1/30/17 16:25,LAB 411,Frank H T Rhodes Hall 169,System Dynamics,42.443425,-76.481356
+"MAE 3260, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Bill and Melinda Gates Hll G01,System Dynamics,42.44495,-76.480807
+"MAE 3272, Laboratory",1/30/17 14:00,1/30/17 16:25,LAB 411,Thurston Hall 101,Mechanical Property and Performance Laboratory,42.443913,-76.48366
+"MAE 3272, Lecture",1/30/17 12:20,1/30/17 13:10,LEC 001,Kimball Hall B11,Mechanical Property and Performance Laboratory,42.443943,-76.483222
+"MAE 4640, Lecture",1/25/17 14:55,1/25/17 16:10,LEC 001,Bard Hall 140,Orthopaedic Tissue Mechanics,42.443878,-76.484026
+"MATH 2930, Discussion",1/25/17 19:30,1/25/17 20:20,DIS 201,Phillips Hall 307,Differential Equations for Engineers,42.444511,-76.481992
+"MATH 2930, Lecture",1/25/17 11:15,1/25/17 12:05,LEC 001,Olin Hall 155,Differential Equations for Engineers,42.445429,-76.484397
+"MATH 4280, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Malott Hall 207,Introduction to Partial Differential Equations,42.448225,-76.480195
+"MATH 6140, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Rockefeller Hall 105,Topics in Analysis,42.448983,-76.481771
+"MSE 4070, Lecture",1/25/17 19:30,1/25/17 20:45,LEC 001,Hollister Hall 306,Materials Design Concepts II,42.443989,-76.484547
+"MUSIC 3603, Studio",1/25/17 19:30,1/25/17 21:30,STU 501,Sage Chapel 101,Glee Club,42.447201,-76.484459
+"MUSIC 3603, Studio",1/29/17 16:00,1/29/17 18:00,STU 501,Lincoln Hall B20,Glee Club,42.450147,-76.483496
+"NBA 5410, Lecture",1/25/17 13:25,1/25/17 14:40,LEC 001,Sage Graduate Hall B10,Project Management,42.445916,-76.483243
+"NBA 6010, Lecture",1/25/17 10:10,1/25/17 11:25,LEC 001,Sage Graduate Hall B01,Electronic Commerce,42.445916,-76.483243
+"NBA 6650, Lecture",1/25/17 14:55,1/25/17 17:40,LEC 001,Sage Graduate Hall B01,The Strategic Management of Technology and Innovation,42.445916,-76.483243
+"ORIE 3120, Discussion",1/25/17 14:30,1/25/17 16:25,DIS 201,Frank H T Rhodes Hall 571,Industrial Data and Systems Analysis,42.443425,-76.481356
+"ORIE 3120, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Olin Hall 255,Industrial Data and Systems Analysis,42.445429,-76.484397
+"ORIE 3800, Discussion",1/27/17 14:55,1/27/17 16:25,DIS 201,Thurston Hall 203,Information Systems and Analysis,42.443913,-76.48366
+"ORIE 3800, Lecture",1/25/17 13:25,1/25/17 14:15,LEC 001,Thurston Hall 203,Information Systems and Analysis,42.443913,-76.48366
+"ORIE 4740, Discussion",1/30/17 14:30,1/30/17 15:20,DIS 201,Frank H T Rhodes Hall 453,Statistical Data Mining I,42.443425,-76.481356
+"ORIE 4740, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Bill and Melinda Gates Hll G01,Statistical Data Mining I,42.44495,-76.480807
+"PAM 2250, Lecture",1/25/17 14:55,1/25/17 16:10,LEC 001,M Van Rensselaer Hall 280,Social Problems in the United States,42.450093,-76.477969
+"PHIL 2621, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Goldwin Smith Hall G64-Kau Aud,Minds and Machines,42.449063,-76.483473
+"PHYS 2213, Discussion",1/25/17 9:05,1/25/17 9:55,DIS 201,Clark Hall 294F,Physics II: Electromagnetism,42.449819,-76.481122
+"PHYS 2213, Laboratory",1/30/17 12:20,1/30/17 14:15,LAB 401,Rockefeller Hall B82,Physics II: Electromagnetism,42.448983,-76.481771
+"PHYS 2213, Lecture",1/26/17 9:05,1/26/17 9:55,LEC 001,Rockefeller Hall 201,Physics II: Electromagnetism,42.448983,-76.481771
+"PHYS 6510, Laboratory",1/25/17 13:25,1/25/17 16:25,LAB 401,Clark Hall 308B,Advanced Experimental Physics,42.449819,-76.481122
+"PHYS 6510, Lecture",1/30/17 14:30,1/30/17 15:20,LEC 001,Rockefeller Hall 132,Advanced Experimental Physics,42.448983,-76.481771
+"PHYS 6562, Lecture",1/25/17 10:10,1/25/17 11:00,LEC 001,Clark Hall 294D,Statistical Physics I,42.449819,-76.481122
+"PHYS 7636, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Rockefeller Hall 231,Solid-State Physics II,42.448983,-76.481771
+"PLHRT 1104, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Stocking Hall 146,Introduction to Wines and Vines,42.447166,-76.471184
+"PLHRT 3100, Laboratory",1/25/17 13:25,1/25/17 16:25,LAB 401,Green Grnhouse Bldg G 170-KPL,Production and Marketing of Greenhouse Crops,42.44837824,-76.46855276
+"PLHRT 3100, Lecture",1/26/17 10:10,1/26/17 11:25,LEC 001,Green Grnhouse Bldg G 170-KPL,Production and Marketing of Greenhouse Crops,42.44837824,-76.46855276
+"PLPPM 2010, Lecture",1/26/17 13:25,1/26/17 14:15,LEC 001,Kennedy Hall 116-Call Aud,"Magical Mushrooms, Mischievous Molds",42.448094,-76.479259
+"PSYCH 2800, Lecture",1/26/17 13:25,1/26/17 14:40,LEC 001,Uris Hall G01,Introduction to Social Psychology,42.447205,-76.482197
+"PSYCH 3140, Lecture",1/26/17 11:40,1/26/17 12:55,LEC 001,Uris Hall 262,Computational Psychology,42.447205,-76.482197
+"PSYCH 3260, Lecture",1/26/17 14:55,1/26/17 16:10,LEC 001,Uris Hall 202,Evolution of Human Behavior,42.447205,-76.482197
