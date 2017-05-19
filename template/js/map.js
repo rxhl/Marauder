@@ -13,14 +13,14 @@ const marauder = document.querySelector(".marauder");
 const boxed = document.querySelector(".boxed");
 
 setTimeout(function() {
-	$(".marauder").fadeOut(2200);
+	$(".marauder").fadeOut(2000);
 }, 100);
 
 setTimeout(function() {
 	marauder.style.background = "none";
 	boxed.style.visibility = "visible";
 	$(".marauder").fadeIn(2000);
-}, 2400);
+}, 2100);
 
 // Setting map's default coordinates
 

@@ -115,8 +115,3 @@ h1 {
 .boxed {
 	visibility: hidden;
 }
-
-.marauder {
-	background: url("../static/open.jpg") no-repeat;
-	visibility: visible;
-}
