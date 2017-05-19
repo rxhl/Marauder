@@ -13,13 +13,13 @@ const marauder = document.querySelector(".marauder");
 const boxed = document.querySelector(".boxed");
 
 setTimeout(function() {
-	$(".marauder").fadeOut(2000);
+	$(".marauder").fadeOut(100);
 }, 100);
 
 setTimeout(function() {
 	boxed.style.visibility = "visible";
-	$(".marauder").fadeIn(2000);
-}, 2100);
+	$(".marauder").fadeIn(1500);
+}, 200);
 
 // Setting map's default coordinates
 
