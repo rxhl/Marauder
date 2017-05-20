@@ -9,6 +9,7 @@ function init() {
 
 // Show the map
 
+/* 
 const marauder = document.querySelector(".marauder");
 const boxed = document.querySelector(".boxed");
 
@@ -20,6 +21,7 @@ setTimeout(function() {
 	boxed.style.visibility = "visible";
 	$(".marauder").fadeIn(1500);
 }, 200);
+*/
 
 // Setting map's default coordinates
 

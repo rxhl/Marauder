@@ -111,7 +111,3 @@ h1 {
 #classesByCategory circle {
     cursor: pointer;
 }
-
-.boxed {
-	visibility: hidden;
-}
