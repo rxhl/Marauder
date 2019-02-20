@@ -1,4 +1,4 @@
-# Marauder-Map
+# Marauder
 A Cornell-flavored version of Marauder's Map from Harry Potter.
 
-https://rxhl.github.io/Marauder-Map/
+https://rxhl.github.io/Marauder/
