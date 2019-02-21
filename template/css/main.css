@@ -1,8 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600%7COswald%7CRoboto:100%7CDancing+Script");
 
-html, body {
-    background: url("../static/paper.jpg") center;
-	background-repeat: repeat-y;
+body {
+    background: bisque;
 }
 
 
