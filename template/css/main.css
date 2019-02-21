@@ -1,113 +1,111 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,600%7COswald%7CRoboto:100%7CDancing+Script");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600%7COswald%7CRoboto:100%7CDancing+Script');
 
-html, body {
-    background: url("../static/paper.jpg") center;
-	background-repeat: repeat-y;
+html,
+body {
+  background: bisque;
 }
 
-
 .title {
-    padding-top: 10px;
-    font-family: "Oswald", sans-serif;
+  padding-top: 10px;
+  font-family: 'Oswald', sans-serif;
 }
 
 #mapid {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    height: 400px;
-	margin-bottom: 50px;
-	border: 1px solid black;
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 50px;
+  border: 1px solid black;
 }
 
 .title {
-    text-align: center;
-    font-size: 4rem;
-    font-family: "Dancing Script", sans-serif;
-    color: #2d2d2d;
+  text-align: center;
+  font-size: 4rem;
+  font-family: 'Dancing Script', sans-serif;
+  color: #2d2d2d;
 }
 
 #classesByCategory {
-    width: 400px;
-    height: 400px;
-    margin-left: 5%;
-    border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  margin-left: 5%;
+  border: 1px solid black;
 }
 
 #classesByCategory text {
-    font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
-    font-size: 28px;
-    font-family: "Dancing Script", sans-serif;
-    text-align: center;
-    padding-top: 20px;
+  font-size: 28px;
+  font-family: 'Dancing Script', sans-serif;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .spell {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 .intro {
-	font-weight: 500;
+  font-weight: 500;
 }
 
 .wand {
-	max-height: 150px;
-	max-width: 150px;
-	transform: rotate(94deg);
-	display: block;
-	margin-top: -300px;
-	margin-left: 600px;
+  max-height: 150px;
+  max-width: 150px;
+  transform: rotate(94deg);
+  display: block;
+  margin-top: -300px;
+  margin-left: 600px;
 }
 
 .mis {
-	max-height: 200px;
-	max-width: 200px;
-	display: block;
-	margin: 0 auto;
+  max-height: 200px;
+  max-width: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .btn-pill {
-	background: white; 
-	padding: 3px; 
-	border-radius: 10px;
-	border: 1px solid black;
+  background: white;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 #row1 {
-    width: 100%;
-    height: 500px;
-    margin: 0 auto;
-	
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
 }
 
 #classesByCategory {
-    width: 950px;
-    height: 500px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-	background: #fff;
+  width: 950px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background: #fff;
 }
 
 #svgClassesByCategory {
-    float: left;
+  float: left;
 }
 
 #classesByCategory text {
-    font-family: "Oswald", sans-serif;
-    cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  cursor: pointer;
 }
 
 #classList {
-    width: 500px;
-    height: 400px;
-    overflow-y: auto;
-    float: left;
+  width: 500px;
+  height: 400px;
+  overflow-y: auto;
+  float: left;
 }
 
 #classesByCategory circle {
-    cursor: pointer;
+  cursor: pointer;
 }
